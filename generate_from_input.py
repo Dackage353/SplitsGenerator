@@ -18,3 +18,4 @@ if __name__ == '__main__':
 
     output = Path(OUTPUT_FILE_NAME)
     output.write_text(formatted_text)
+    print('The splits have been generated. Look for output.txt')
