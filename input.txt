@@ -1,0 +1,84 @@
+Bob-omb Battlefield - Part 1	enter (C1)	
+	bomb clip	1
+Whomp's Fortress	enter (C2)	
+	cannonless	1
+	owless	1
+	reds + 100's	2
+	wild blue	1
+	whomp king	1
+	tower	1
+The Princess's Secret Slide + WC	enter (S1)	
+	slide skip - beat 21	1
+	slide skip - box	1
+	wc reds	1
+Bowser in the Dark World	enter (B1)	
+	reds + enter (F1)	1
+	key 1 fight	
+Bob-omb Battlefield - Part 2	enter (C1)	
+	island - wc	1
+Cool, Cool Mountain	enter (C4)	
+	wkww	1
+	lost penguin	1
+	slide skip	1
+	race + 100's	2
+Big Boo's Haunt	enter (C5)	
+	boo's balcony	1
+	library skip	1
+Shifting Sand Land	mips + enter (C8)	1
+	pillarless	1
+	klepto	1
+	pyramid outside	1
+Lethal Lava Land	enter (C7)	
+	lava boost	1
+	elevator	1
+	bullies	1
+	bully	1
+	logless - wc	1
+	reds	1
+Dire, Dire Docks	enter (C9)	
+	chests	1
+	sub	1
+	manta ray rings	1
+Bowser in the Fire Sea	enter (B2)	
+	reds + enter (F2)	1
+	key 2 fight	
+Wet-Dry World	re-enter, enter (C11)	
+	low, elevator	1
+	mid, top of the town	1
+	low, secrets + 100's	2
+	low, arrow lifts	1
+Tiny-Huge Island	enter (C13)	
+	secrets	1
+	tip top - box	1
+	piranhas	1
+Tall, Tall Mountain	toad + enter (C12)	1
+	waterfall	1
+	scale the mountain	1
+	crazy box	1
+	reds	1
+	mountainside	1
+Snowman's Land	enter (C10)	
+	snowman's head	1
+	freezing pond	1
+	ice bully	1
+	deep freeze	1
+Hazy Maze Cave	mips, toad, enter (C6)	2
+	dorrie	1
+	switch	1
+	e exit	1
+	rolling rocks	1
+Rainbow Ride	enter (C15)	
+	cruiser	1
+	triangles	1
+	swings	1
+	reds	1
+Tick Tock Clock	enter (C14)	
+	still, thwomp + 100's	2
+	still, moving bars	1
+	still, reds	1
+	fast, pendulums	1
+	fast, cage	1
+	fast, clock hand	1
+Bowser in the Sky	toad + enter (B3)	1
+	enter (F3)	
+	throws	
