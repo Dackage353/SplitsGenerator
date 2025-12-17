@@ -1,84 +1,84 @@
 -enter (C1)
-{Bob-omb Battlefield - Part 1}[1] bomb clip
+{Bob-omb Battlefield - Part 1}bomb clip (1)
 -enter (C2)
--[2] cannonless
--[3] owless
--[5] reds + 100's
--[6] wild blue
--[7] whomp king
-{Whomp's Fortress}[8] tower
+-cannonless (2)
+-owless (3)
+-reds + 100's (5)
+-wild blue (6)
+-whomp king (7)
+{Whomp's Fortress}tower (8)
 -enter (S1)
--[9] slide skip - beat 21
--[10] slide skip - box
-{The Princess's Secret Slide + WC}[11] wc reds
+-slide skip - beat 21 (9)
+-slide skip - box (10)
+{The Princess's Secret Slide + WC}wc reds (11)
 -enter (B1)
--[12] reds + enter (F1)
+-reds + enter (F1) (12)
 {Bowser in the Dark World}key 1 fight
 -enter (C1)
-{Bob-omb Battlefield - Part 2}[13] island - wc
+{Bob-omb Battlefield - Part 2}island - wc (13)
 -enter (C4)
--[14] wkww
--[15] lost penguin
--[16] slide skip
-{Cool, Cool Mountain}[18] race + 100's
+-wkww (14)
+-lost penguin (15)
+-slide skip (16)
+{Cool, Cool Mountain}race + 100's (18)
 -enter (C5)
--[19] boo's balcony
-{Big Boo's Haunt}[20] library skip
--[21] mips + enter (C8)
--[22] pillarless
--[23] klepto
-{Shifting Sand Land}[24] pyramid outside
+-boo's balcony (19)
+{Big Boo's Haunt}library skip (20)
+-mips + enter (C8) (21)
+-pillarless (22)
+-klepto (23)
+{Shifting Sand Land}pyramid outside (24)
 -enter (C7)
--[25] lava boost
--[26] elevator
--[27] bullies
--[28] bully
--[29] logless - wc
-{Lethal Lava Land}[30] reds
+-lava boost (25)
+-elevator (26)
+-bullies (27)
+-bully (28)
+-logless - wc (29)
+{Lethal Lava Land}reds (30)
 -enter (C9)
--[31] chests
--[32] sub
-{Dire, Dire Docks}[33] manta ray rings
+-chests (31)
+-sub (32)
+{Dire, Dire Docks}manta ray rings (33)
 -enter (B2)
--[34] reds + enter (F2)
+-reds + enter (F2) (34)
 {Bowser in the Fire Sea}key 2 fight
 -re-enter, enter (C11)
--[35] low, elevator
--[36] mid, top of the town
--[38] low, secrets + 100's
-{Wet-Dry World}[39] low, arrow lifts
+-low, elevator (35)
+-mid, top of the town (36)
+-low, secrets + 100's (38)
+{Wet-Dry World}low, arrow lifts (39)
 -enter (C13)
--[40] secrets
--[41] tip top - box
-{Tiny-Huge Island}[42] piranhas
--[43] toad + enter (C12)
--[44] waterfall
--[45] scale the mountain
--[46] crazy box
--[47] reds
-{Tall, Tall Mountain}[48] mountainside
+-secrets (40)
+-tip top - box (41)
+{Tiny-Huge Island}piranhas (42)
+-toad + enter (C12) (43)
+-waterfall (44)
+-scale the mountain (45)
+-crazy box (46)
+-reds (47)
+{Tall, Tall Mountain}mountainside (48)
 -enter (C10)
--[49] snowman's head
--[50] freezing pond
--[51] ice bully
-{Snowman's Land}[52] deep freeze
--[54] mips, toad, enter (C6)
--[55] dorrie
--[56] switch
--[57] e exit
-{Hazy Maze Cave}[58] rolling rocks
+-snowman's head (49)
+-freezing pond (50)
+-ice bully (51)
+{Snowman's Land}deep freeze (52)
+-mips, toad, enter (C6) (54)
+-dorrie (55)
+-switch (56)
+-e exit (57)
+{Hazy Maze Cave}rolling rocks (58)
 -enter (C15)
--[59] cruiser
--[60] triangles
--[61] swings
-{Rainbow Ride}[62] reds
+-cruiser (59)
+-triangles (60)
+-swings (61)
+{Rainbow Ride}reds (62)
 -enter (C14)
--[64] still, thwomp + 100's
--[65] still, moving bars
--[66] still, reds
--[67] fast, pendulums
--[68] fast, cage
-{Tick Tock Clock}[69] fast, clock hand
--[70] toad + enter (B3)
+-still, thwomp + 100's (64)
+-still, moving bars (65)
+-still, reds (66)
+-fast, pendulums (67)
+-fast, cage (68)
+{Tick Tock Clock}fast, clock hand (69)
+-toad + enter (B3) (70)
 -enter (F3)
 {Bowser in the Sky}throws

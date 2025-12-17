@@ -4,4 +4,4 @@ from dataclasses import dataclass, field
 class Split:
     level_name: str = ''
     name: str = ''
-    stars: int = -1
+    stars: int = None
