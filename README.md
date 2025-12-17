@@ -1,5 +1,6 @@
 # SplitsGenerator
-This is a script that generates splits to paste into LiveSplit. Python is required. Simply double click generate_from_input.py or drag this py file onto the bat file to run it while seeing errors.
+- This is a script that generates splits to paste into LiveSplit. Python is required.
+- Simply double click generate_from_input.py or drag this py file onto the bat file to run it while seeing errors.
 
 ## Adjust these options in generate_from_input.py
 USE_SUBSPLITS = True</br>
