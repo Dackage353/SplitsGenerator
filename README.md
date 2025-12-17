@@ -1,10 +1,11 @@
 # SplitsGenerator
-a script that generates splits that you can paste into LiveSplit. Python is required. Simply double click generate_from_input.py or drag that py file onto the bat file to run it while seeing errors.
+This is a script that generates splits to paste into LiveSplit. Python is required. Simply double click generate_from_input.py or drag this py file onto the bat file to run it while seeing errors.
 
 ## Adjust these options in generate_from_input.py
-USE_SUBSPLITS = True
-SWAP_STAR_AND_LEVEL_SYMBOL = True
-STAR_COUNT_IN_FRONT = True
+USE_SUBSPLITS = True</br>
+USE_STAR_COUNTS = True</br>
+SWAP_STAR_AND_LEVEL_SYMBOL = False</br>
+STAR_COUNT_IN_FRONT = False</br>
 
 ## Copy from sheets
 Copy directly from google sheets. It will include tabs. Tabs are used by the script as a separator
