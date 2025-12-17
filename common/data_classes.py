@@ -1,7 +1,8 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
+from typing import Optional
 
 @dataclass
 class Split:
     level_name: str = ''
     name: str = ''
-    stars: int = None
+    stars: Optional[int] = None

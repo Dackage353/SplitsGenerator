@@ -1,5 +1,5 @@
-from pathlib import Path
 from common.split_text_builder import SplitTextBuilder
+from pathlib import Path
 
 
 INPUT_FILE_NAME = 'input.txt'

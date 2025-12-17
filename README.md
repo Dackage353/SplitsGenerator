@@ -3,10 +3,12 @@
 - Simply double click generate_from_input.py or drag this py file onto the bat file to run it while seeing errors.
 
 ## Adjust these options in generate_from_input.py
-USE_SUBSPLITS = True</br>
-USE_STAR_COUNTS = True</br>
-SWAP_STAR_AND_LEVEL_SYMBOL = False</br>
-STAR_COUNT_IN_FRONT = False</br>
+- USE_SUBSPLITS = True
+- USE_STAR_COUNTS = True
+- SWAP_STAR_AND_LEVEL_SYMBOL = False
+- STAR_COUNT_IN_FRONT = False
+
+You can turn USE_STAR_COUNTS off to generate subsplits for a different game.
 
 ## Copy from sheets
 Copy directly from google sheets into the input.txt file. (It will include tabs which are used by the script as a separator.)
