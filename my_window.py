@@ -9,23 +9,29 @@ class MyWindow:
 
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title('splits generator')
+        self.root.title('Splits Generator')
         self.frame = tk.Frame(self.root, padx=20, pady=20)
         self.frame.pack(fill='both', expand=True)
 
         self.add_input_text_box()
         self.add_checkboxes()
-        self.add_buttons()
+        self.add_generate_buttons()
 
         self.root.mainloop()
 
     def add_input_text_box(self):
-        self.label1 = tk.Label(self.frame, text='Split data. Must use the copy/paste hotkeys')
+        self.label1 = tk.Label(self.frame, text='must use the copy/paste hotkeys')
         self.label1.pack()
+
         self.input_text_box = tk.Text(self.frame, height=6, width=30, wrap='word')
-        self.input_text_box.pack()
+        self.input_text_box.pack(pady=4)
+
+        self.clear_button = tk.Button(self.frame, text='clear', width=10, command=self.clear_textbox)
+        self.clear_button.pack()
 
     def add_checkboxes(self):
+        tk.Frame(self.frame, height=30).pack()
+
         self.use_star_count = tk.BooleanVar()
         self.use_subsplits = tk.BooleanVar()
         self.swap_star_and_level_symbol = tk.BooleanVar()
@@ -46,11 +52,16 @@ class MyWindow:
         self.swap_star_and_level_symbol_checkbox.pack()
         self.star_count_in_front_checkbox.pack()
 
-    def add_buttons(self):
+    def add_generate_buttons(self):
+        tk.Frame(self.frame, height=30).pack()
+        
         self.output_to_file_button = tk.Button(self.frame, text='output to output.txt', command=self.output_to_file)
         self.copy_to_clipboard_button = tk.Button(self.frame, text='copy to clipboard', command=self.copy_to_clipboard)
         self.output_to_file_button.pack()
         self.copy_to_clipboard_button.pack()
+
+    def clear_textbox(self):
+        self.input_text_box.delete("1.0", "end")
 
     def output_to_file(self):
         text = self.get_text()
