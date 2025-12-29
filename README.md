@@ -1,6 +1,7 @@
 # SplitsGenerator
 - This is a program that generates splits to copy into LiveSplit.
 - Use this to more easily create splits with subsplits and/or star counts.
+![GUI](readme_images/gui.png)
 
 ## How to
 - Download the .exe from [releases](https://github.com/Dackage353/SplitsGenerator/releases)

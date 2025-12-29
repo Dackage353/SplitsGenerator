@@ -9,7 +9,7 @@ class MyWindow:
 
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title('Splits Generator')
+        self.root.title('Splits Generator v1.0')
         self.frame = tk.Frame(self.root, padx=20, pady=20)
         self.frame.pack(fill='both', expand=True)
 
@@ -54,7 +54,7 @@ class MyWindow:
 
     def add_generate_buttons(self):
         tk.Frame(self.frame, height=30).pack()
-        
+
         self.output_to_file_button = tk.Button(self.frame, text='output to output.txt', command=self.output_to_file)
         self.copy_to_clipboard_button = tk.Button(self.frame, text='copy to clipboard', command=self.copy_to_clipboard)
         self.output_to_file_button.pack()
