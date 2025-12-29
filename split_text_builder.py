@@ -1,6 +1,7 @@
 from split import Split
 from tkinter import messagebox
 
+
 class SplitTextBuilder:
     def __init__(self, lines, use_star_count, use_subsplits, swap_star_and_level_symbol, star_count_in_front):
         self.lines = lines
@@ -15,7 +16,7 @@ class SplitTextBuilder:
         self._stars_index                  = 0
         self._star_count                   = 0
         self._expected_arguments           = 1
-        
+
         self._error = False
 
         self.init_nums()
@@ -26,7 +27,7 @@ class SplitTextBuilder:
             self._expected_arguments += 1
             self._name_index = 1
             self._stars_index = 2
-        else:                
+        else:
             self._name_index = 0
             self._stars_index = 1
 
@@ -49,7 +50,7 @@ class SplitTextBuilder:
                         self._last_level_name = line_parts[0]
 
                     split.level_name = self._last_level_name
-                
+
                 split.name = line_parts[self._name_index]
 
                 if self.use_star_count:
@@ -61,7 +62,7 @@ class SplitTextBuilder:
                         break
 
                 self._splits.append(split)
-        
+
     def read_star_count(self, line_parts):
         try:
             if line_parts[self._stars_index] != '':
@@ -102,12 +103,12 @@ class SplitTextBuilder:
                         parts.append(self.get_formatted_star_count(split))
 
             parts.append('\n')
-        
+
         return "".join(parts)
-                
+
     def get_formatted_star_count(self, split):
         if not self.swap_star_and_level_symbol:
             return f'({split.stars})'
-        
+
         else:
             return f'[{split.stars}]'

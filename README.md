@@ -1,17 +1,13 @@
 # SplitsGenerator
-- This is a script that generates splits to copy into LiveSplit. Python is required.
-- Simply double click generate_from_input.py or drag this py file onto the bat file to run it while seeing errors.
+- This is a program that generates splits to copy into LiveSplit.
+- Simply download the .exe from releases and it should work fine.
+- If you know python, you can download the .py files and do what you want with it.
 
-## Adjust these options in generate_from_input.py
-- USE_SUBSPLITS = True
-- USE_STAR_COUNTS = True
-- SWAP_STAR_AND_LEVEL_SYMBOL = False
-- STAR_COUNT_IN_FRONT = False
+## How to
+- Download the .exe from [releases](https://github.com/Dackage353/SplitsGenerator/releases)
+- Open the .exe
+- Copy your split data directly from google sheets into the textbox. (It will include tabs which are used by the program as a separator)
+- Pick your options and then press a button
 
-You can turn USE_STAR_COUNTS off to generate subsplits for a different game.
-
-## Copy from sheets
-Copy directly from google sheets into the input.txt file. (It will include tabs which are used by the script as a separator.)
-
-If using subsplits, use 3 columns. If not, use 2
+If using subsplits and star counts, use 3 columns. If using only subsplits or star counts, use 2 columns
 ![Example](readme_images/example.png)

@@ -3,6 +3,7 @@ from split_text_builder import SplitTextBuilder
 import sys
 import tkinter as tk
 
+
 class MyWindow:
     OUTPUT_FILE_NAME = 'output.txt'
 
@@ -19,7 +20,7 @@ class MyWindow:
         self.root.mainloop()
 
     def add_input_text_box(self):
-        self.label1 = tk.Label(self.frame, text='Split data')
+        self.label1 = tk.Label(self.frame, text='Split data. Must use the copy/paste hotkeys')
         self.label1.pack()
         self.input_text_box = tk.Text(self.frame, height=6, width=30, wrap='word')
         self.input_text_box.pack()
@@ -60,8 +61,6 @@ class MyWindow:
             script_folder = Path(__file__).parent
 
         output_path = script_folder / MyWindow.OUTPUT_FILE_NAME
-        
-        
         output_path.write_text(text)
 
     def copy_to_clipboard(self):
@@ -81,4 +80,3 @@ class MyWindow:
             swap_star_and_level_symbol    = self.swap_star_and_level_symbol.get(),
             star_count_in_front           = self.star_count_in_front.get()
         ).get_text()
-
