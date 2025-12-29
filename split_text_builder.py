@@ -112,7 +112,7 @@ class SplitTextBuilder:
 
             parts.append('\n')
 
-        return "".join(parts)
+        return ''.join(parts)
 
     def get_formatted_star_count(self, split):
         if not self.swap_star_and_level_symbol:

@@ -61,7 +61,7 @@ class MyWindow:
         self.copy_to_clipboard_button.pack()
 
     def clear_textbox(self):
-        self.input_text_box.delete("1.0", "end")
+        self.input_text_box.delete('1.0', 'end')
 
     def output_to_file(self):
         text = self.get_text()
@@ -82,7 +82,7 @@ class MyWindow:
         self.root.update()
 
     def get_text(self):
-        lines = self.input_text_box.get("1.0", tk.END).splitlines()
+        lines = self.input_text_box.get('1.0', tk.END).splitlines()
 
         return SplitTextBuilder(
             lines                         = lines,
