@@ -23,16 +23,22 @@ class SplitTextBuilder:
         self.parse_split_lines()
 
     def init_nums(self):
+        if self.use_star_count:
+            self._expected_arguments += 1
+
         if self.use_subsplits:
             self._expected_arguments += 1
+
+        if self.use_star_count and self.use_subsplits:
             self._name_index = 1
             self._stars_index = 2
-        else:
+
+        if self.use_star_count and not self.use_subsplits:
             self._name_index = 0
             self._stars_index = 1
 
-        if self.use_star_count:
-            self._expected_arguments += 1
+        if self.use_subsplits and not self.use_star_count:
+            self._name_index = 1
 
     def parse_split_lines(self):
         for line in self.lines:
@@ -101,6 +107,8 @@ class SplitTextBuilder:
                     if split.stars:
                         parts.append(' ')
                         parts.append(self.get_formatted_star_count(split))
+            else:
+                parts.append(split.name)
 
             parts.append('\n')
 

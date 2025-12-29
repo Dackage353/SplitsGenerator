@@ -9,7 +9,7 @@ class MyWindow:
 
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title('Splits Generator v1.0')
+        self.root.title('Splits Generator v1.1')
         self.frame = tk.Frame(self.root, padx=20, pady=20)
         self.frame.pack(fill='both', expand=True)
 
